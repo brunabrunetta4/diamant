@@ -1,0 +1,142 @@
+/* Investment Section Styles */
+.investment-section {
+  background: radial-gradient(circle at 50% 30%, rgba(212, 175, 55, 0.1) 0%, rgba(10, 11, 14, 0.98) 70%);
+  border-top: 1px solid var(--border-gold);
+  border-bottom: 1px solid var(--border-gold);
+  padding: 110px 6%;
+}
+
+.investment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.investment-card {
+  background: #12141c;
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 36px 30px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.investment-card.featured {
+  border-color: var(--gold-primary);
+  box-shadow: 0 15px 45px rgba(0,0,0,0.6), 0 0 25px rgba(212, 175, 55, 0.2);
+}
+
+.investment-badge {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: var(--gold-gradient);
+  color: #08090c;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.investment-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--gold-primary);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.7), 0 0 30px rgba(212, 175, 55, 0.25);
+}
+
+.investment-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid var(--border-gold);
+  color: var(--gold-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.investment-tier {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.investment-price {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  color: var(--gold-light);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.investment-desc {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.investment-perks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.investment-perk {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+}
+
+.investment-perk svg {
+  color: var(--gold-primary);
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+/* Investment Vault / Security Banner */
+.vault-banner {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #141722;
+  border: 1px solid var(--border-gold);
+  border-radius: 20px;
+  padding: 35px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  text-align: center;
+}
+
+.vault-item h4 {
+  font-size: 1.1rem;
+  color: var(--gold-light);
+  margin-bottom: 6px;
+}
+
+.vault-item p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 800px) {
+  .vault-banner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 25px;
+  }
+}

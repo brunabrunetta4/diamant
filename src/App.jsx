@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import './Shop.css';
+import './Investment.css';
 import { 
   Sparkles, 
   Gem, 
@@ -18,7 +19,11 @@ import {
   Minus, 
   Search,
   Check,
-  Eye
+  Eye,
+  TrendingUp,
+  Lock,
+  Building,
+  FileText
 } from 'lucide-react';
 
 const productsData = [
@@ -210,6 +215,7 @@ export default function App() {
 
         <div className={`nav-links ${menuOpen ? 'mobile-nav-active' : ''}`}>
           <a href="#shop" onClick={() => setMenuOpen(false)}>Shop & Kollektionen</a>
+          <a href="#investments" onClick={() => setMenuOpen(false)}>Investments</a>
           <a href="#philosophie" onClick={() => setMenuOpen(false)}>Philosophie</a>
           <a href="#atelier" onClick={() => setMenuOpen(false)}>Das Atelier</a>
           <a href="#beratung" onClick={() => setMenuOpen(false)}>Privatberatung</a>
@@ -267,8 +273,9 @@ export default function App() {
             <a href="#shop" className="btn-primary">
               Jetzt Shoppen <ChevronRight size={16} />
             </a>
-            <a href="#atelier" className="btn-secondary">
-              Unser Atelier
+            <a href="#investments" className="btn-secondary">
+              <TrendingUp size={16} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '6px' }} />
+              Diamanten Investment
             </a>
           </div>
         </div>
@@ -505,6 +512,123 @@ export default function App() {
           </div>
         </div>
       )}
+
+      {/* Investment Section */}
+      <section id="investments" className="investment-section">
+        <div className="section-header">
+          <span className="section-tag">Vermögenssicherung & Sachwerte</span>
+          <h2 className="section-title">Diamanten als Wertanlage</h2>
+          <p className="section-desc">
+            Physische, GIA-versiegelte Anlagediamanten höchster Reinheit und Seltenheit zum langfristigen Werterhalt und Inflationsschutz.
+          </p>
+        </div>
+
+        <div className="investment-grid">
+          <div className="investment-card">
+            <div className="investment-icon">
+              <Gem size={28} />
+            </div>
+            <h3 className="investment-tier">Portfolio Starter</h3>
+            <div className="investment-price">ab € 10.000</div>
+            <p className="investment-desc">
+              Ideal für den Einstieg in krisensichere Sachwerte mit hoher Liquidität und weltweiter Handelbarkeit.
+            </p>
+            <ul className="investment-perks">
+              <li className="investment-perk">
+                <Check size={16} /> 1.00 - 1.50 Karat Solitär-Brillant
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Farbgrade D–F (Farblos / Höchste Güte)
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Reinheit IF / VVS1 (Lupenrein)
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> GIA-Dossier mit Lasergravur & Siegelbox
+              </li>
+            </ul>
+            <a href="#beratung" className="btn-secondary" style={{ textAlign: 'center' }}>
+              Exposé anfordern
+            </a>
+          </div>
+
+          <div className="investment-card featured">
+            <span className="investment-badge">Empfohlen</span>
+            <div className="investment-icon">
+              <TrendingUp size={28} />
+            </div>
+            <h3 className="investment-tier">Private Wealth Vault</h3>
+            <div className="investment-price">ab € 50.000</div>
+            <p className="investment-desc">
+              Selektiertes Portfolio aus seltenen Investment-Diamanten inklusive versicherter Schweizer Hochsicherheitslagerung.
+            </p>
+            <ul className="investment-perks">
+              <li className="investment-perk">
+                <Check size={16} /> Multi-Stein Portfolio (2.00+ ct Solitäre)
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Triple Excellent Cut (Cut, Polish, Symmetry)
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Option auf zollfreie Lagerung in Zürich / Genf
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Quartalsweiser Bewertungsreport & Rückkaufoption
+              </li>
+            </ul>
+            <a href="#beratung" className="btn-primary" style={{ justifyContent: 'center' }}>
+              VIP Beratung Buchen <ChevronRight size={16} />
+            </a>
+          </div>
+
+          <div className="investment-card">
+            <div className="investment-icon">
+              <Building size={28} />
+            </div>
+            <h3 className="investment-tier">Fancy Color Rarities</h3>
+            <div className="investment-price">ab € 150.000</div>
+            <p className="investment-desc">
+              Extrem seltene farbige Naturdiamanten (Fancy Vivid Yellow, Pink & Blue) mit historisch herausragender Wertsteigerung.
+            </p>
+            <ul className="investment-perks">
+              <li className="investment-perk">
+                <Check size={16} /> Höchste internationale Sammler-Nachfrage
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Unabhängige Doppelzertifizierung (GIA / Gübelin)
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Weltweiter Auktions- und Vermittlungsservice
+              </li>
+              <li className="investment-perk">
+                <Check size={16} /> Diskrete persönliche Concierge-Betreuung
+              </li>
+            </ul>
+            <a href="#beratung" className="btn-secondary" style={{ textAlign: 'center' }}>
+              Diskrete Anfrage
+            </a>
+          </div>
+        </div>
+
+        {/* Security & Vault Guarantee */}
+        <div className="vault-banner">
+          <div className="vault-item">
+            <Lock size={26} color="var(--gold-primary)" style={{ margin: '0 auto 10px' }} />
+            <h4>Zollfreilager Schweiz</h4>
+            <p>Auf Wunsch vollversicherte Aufbewahrung in Schweizer Hochsicherheitslagern (Zürich/Genf).</p>
+          </div>
+          <div className="vault-item">
+            <FileText size={26} color="var(--gold-primary)" style={{ margin: '0 auto 10px' }} />
+            <h4>100% GIA Verifiziert</h4>
+            <p>Jeder Stein mit Mikrolasergravur auf der Rundiste und fälschungssicherer Siegelbox.</p>
+          </div>
+          <div className="vault-item">
+            <Award size={26} color="var(--gold-primary)" style={{ margin: '0 auto 10px' }} />
+            <h4>Garantierte Liquidität</h4>
+            <p>Exklusiver Rückkaufservice und weltweiter Marktzugang über unser Händlernetzwerk.</p>
+          </div>
+        </div>
+      </section>
 
       {/* Philosophy / Features Section */}
       <section id="philosophie" className="section">
