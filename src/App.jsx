@@ -254,7 +254,7 @@ export default function App() {
           </div>
 
           <h1 className="hero-title">
-            <span className="gold-text">VALLTER DIAMONDS</span>
+            <span className="blue-text">VALLTER DIAMONDS</span>
           </h1>
           <p className="hero-subtitle">A BRIGHTER FOREVER</p>
 
@@ -587,8 +587,8 @@ export default function App() {
           </p>
 
           {submitted ? (
-            <div style={{ marginTop: '30px', padding: '16px', background: 'rgba(212,175,55,0.15)', border: '1px solid var(--border-gold)', borderRadius: '12px' }}>
-              <p style={{ color: 'var(--gold-light)', fontWeight: 600 }}>
+            <div style={{ marginTop: '30px', padding: '16px', background: 'rgba(0, 145, 255, 0.15)', border: '1px solid var(--border-sapphire)', borderRadius: '12px' }}>
+              <p style={{ color: 'var(--sapphire-ice)', fontWeight: 600 }}>
                 Vielen Dank! Ihre VIP-Anfrage wurde erfolgreich übermittelt. Wir melden uns umgehend bei Ihnen.
               </p>
             </div>
@@ -607,13 +607,13 @@ export default function App() {
 
           <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'center', gap: '30px', flexWrap: 'wrap', color: 'var(--text-muted)', fontSize: '0.85rem' }}>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-              <PhoneCall size={16} color="#d4af37" /> Diskrete Telefonberatung
+              <PhoneCall size={16} color="#0088ff" /> Diskrete Telefonberatung
             </span>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-              <MapPin size={16} color="#d4af37" /> Exklusive Showrooms & Virtuell
+              <MapPin size={16} color="#0088ff" /> Exklusive Showrooms & Virtuell
             </span>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-              <Mail size={16} color="#d4af37" /> concierge@vallter-diamonds.com
+              <Mail size={16} color="#0088ff" /> concierge@vallter-diamonds.com
             </span>
           </div>
         </div>
