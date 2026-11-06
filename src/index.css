@@ -1,27 +1,15 @@
 :root {
-  --bg-dark: #07090e;
-  --bg-card: #0d121d;
-  --bg-glass: rgba(13, 18, 29, 0.78);
-  
-  /* Sapphire / Diamond Blue Luxury Theme */
-  --sapphire-primary: #0088ff;
-  --sapphire-light: #52c1ff;
-  --sapphire-ice: #bfe5ff;
-  --sapphire-dark: #0050a8;
-  --sapphire-gradient: linear-gradient(135deg, #7fe3ff 0%, #0091ff 50%, #0052ba 100%);
-  --sapphire-glow: linear-gradient(135deg, rgba(82, 193, 255, 0.25), rgba(0, 145, 255, 0.05));
-  
-  /* Backward-compatible variables for gold-prefixed selectors */
-  --gold-primary: #0088ff;
-  --gold-light: #52c1ff;
-  --gold-dark: #0050a8;
-  --gold-gradient: linear-gradient(135deg, #7fe3ff 0%, #0091ff 50%, #0052ba 100%);
-  --gold-gradient-glow: linear-gradient(135deg, rgba(82, 193, 255, 0.25), rgba(0, 145, 255, 0.05));
-  --border-gold: rgba(0, 145, 255, 0.35);
-
-  --text-primary: #f0f6fc;
-  --text-muted: #8b9bb4;
-  --border-sapphire: rgba(0, 145, 255, 0.35);
+  --bg-dark: #0a0b0e;
+  --bg-card: #12141a;
+  --bg-glass: rgba(18, 20, 26, 0.75);
+  --gold-primary: #d4af37;
+  --gold-light: #f7e096;
+  --gold-dark: #997d26;
+  --gold-gradient: linear-gradient(135deg, #fce096 0%, #d4af37 50%, #997d26 100%);
+  --gold-gradient-glow: linear-gradient(135deg, rgba(252, 224, 150, 0.2), rgba(212, 175, 55, 0.05));
+  --text-primary: #f5f5f7;
+  --text-muted: #a3a8b8;
+  --border-gold: rgba(212, 175, 55, 0.3);
   --border-subtle: rgba(255, 255, 255, 0.08);
   --font-serif: 'Cinzel', serif;
   --font-sans: 'Montserrat', sans-serif;
@@ -52,9 +40,9 @@ h1, h2, h3, h4, .brand-title {
   text-transform: uppercase;
 }
 
-/* Sapphire Blue Text Gradient */
+/* Gold Text Gradient */
 .gold-text, .blue-text {
-  background: var(--sapphire-gradient);
+  background: var(--gold-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -65,12 +53,12 @@ h1, h2, h3, h4, .brand-title {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #07090e;
+  background: #0a0b0e;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1c2738;
+  background: #2b2e38;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--sapphire-primary);
+  background: var(--gold-primary);
 }
