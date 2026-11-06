@@ -1,0 +1,111 @@
+/* Language Switcher & Expose Modal Styles */
+.lang-selector {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-gold);
+  border-radius: 20px;
+  padding: 3px 6px;
+  gap: 2px;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.05em;
+}
+
+.lang-btn:hover {
+  color: var(--gold-light);
+}
+
+.lang-btn.active {
+  background: var(--gold-gradient);
+  color: #0b0c10;
+  font-weight: 700;
+}
+
+/* Expose Modal */
+.expose-modal {
+  background: #0f121a;
+  border: 1.5px solid var(--gold-primary);
+  border-radius: 24px;
+  max-width: 750px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 40px;
+  position: relative;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.85), 0 0 50px rgba(212, 175, 55, 0.25);
+  color: #fff;
+}
+
+.expose-header {
+  border-bottom: 1px solid var(--border-gold);
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.expose-badge {
+  color: var(--gold-primary);
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.expose-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 24px 0;
+}
+
+.expose-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  padding: 18px 20px;
+}
+
+.expose-box h5 {
+  font-size: 0.8rem;
+  color: var(--gold-primary);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.expose-box p {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.expose-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .expose-modal {
+    padding: 25px;
+  }
+  .expose-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
