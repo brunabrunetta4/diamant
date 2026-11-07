@@ -47,7 +47,7 @@ const productsData = [
       it: 'Montatura in platino fatta a mano con brillante taglio ideale perfetto.'
     },
     longDesc: {
-      de: 'Der Inbegriff der wahren Liebe: Meisterhaft gefasst in 950er Platin thront ein nach GIA-Kriterien selektierter Solitär-Brillant (1.20 ct, D-Farbe, VVS1). Perfekte Proportionen fangen jeden Lichtstrahl ein und reflektieren ein beispielloses Feuer.',
+      de: 'Der Inbegriff der wahren Liebe: Meisterhaft gefasst in 950er Platin thront ein nach GIA-Kriterien ausgewählter Solitär-Brillant (1.20 ct, D-Farbe, VVS1). Perfekte Proportionen fangen jeden Lichtstrahl ein und reflektieren ein beispielloses Feuer.',
       en: 'The epitome of pure love: Masterfully set in 950 platinum with a GIA-certified solitaire diamond (1.20 ct, D-Color, VVS1). Perfect proportions reflect unmatched fire and scintillation.',
       fr: 'L’incarnation de l’amour véritable : sublimé en platine 950 avec un diamant solitaire certifié GIA (1,20 ct, couleur D, VVS1) aux proportions parfaites.',
       it: 'L’espressione dell’amore eterno: incastonato a mano in platino 950 con diamante solitario certificato GIA (1.20 ct, colore D, VVS1).'
@@ -62,26 +62,26 @@ const productsData = [
   {
     id: 2,
     title: {
-      de: 'Königliche Marquise Kaskade',
+      de: 'Königliche Kaskade',
       en: 'Royal Marquise Cascade',
       fr: 'Cascade Royale Marquise',
       it: 'Cascata Reale Marquise'
     },
     category: 'necklaces',
     desc: {
-      de: 'Ein Collier von royaler Anmut – kunstvoll gefasste Diamanten im Navette-Schliff.',
+      de: 'Ein Prachtstück von königlicher Anmut – kunstvoll gefasste Diamanten im Schiffchenschliff.',
       en: 'A necklace of royal grace – artfully set navette-cut diamonds.',
       fr: 'Un collier de grâce royale – diamants taille navette sertis avec virtuosité.',
       it: 'Un collier regale – diamanti taglio navette incastonati ad arte.'
     },
     longDesc: {
-      de: 'Eine Symphonie königlicher Juwelenkunst. Feinst geschliffene Diamanten im Marquise- und Brillantschliff schmiegen sich fließend um das Dekolleté. Gefertigt aus 18k Weißgold mit über 3.50 Karat.',
+      de: 'Eine Symphonie königlicher Juwelenkunst. Feinst geschliffene Diamanten im Schiffchen- und Brillantschliff schmiegen sich fließend um das Dekolleté. Gefertigt aus 18k Weißgold mit über 3.50 Karat.',
       en: 'A symphony of royal fine jewelry. Exquisitely cut marquise and brilliant diamonds flow gracefully along the neckline in 18k white gold (3.50+ ct total weight).',
       fr: 'Une symphonie de haute joaillerie. Diamants marquise et brillants épousant le décolleté en or blanc 18 carats (3,50+ carats).',
       it: 'Una sinfonia di alta gioielleria. Diamanti marquise e brillanti che abbracciano il décolleté in oro bianco 18 carati.'
     },
     price: 12400,
-    tag: 'Unikat',
+    tag: 'Einzelstück',
     carat: '3.50 ct',
     clarity: 'VVS2',
     material: '18K Weißgold',
@@ -97,19 +97,19 @@ const productsData = [
     },
     category: 'earrings',
     desc: {
-      de: '18 Karat Feingold umrahmt von Hunderten mikroskopisch präzise gefassten Diamanten.',
+      de: '18 Karat Feingold umrahmt von Hunderten mikroskopisch präzise gefassten Diamanten im Teppichmuster.',
       en: '18k fine gold set with hundreds of microscopically positioned pavé diamonds.',
       fr: 'Or fin 18 carats serti de centaines de diamants pavés d’une infinie précision.',
       it: 'Oro fine 18 carati impreziosito da centinaia di diamanti pavé microscopici.'
     },
     longDesc: {
-      de: 'Luxus für jeden Tag und festliche Galas. Über 120 handgefasste Mikro-Brillanten zieren die geschwungenen Ohrhänger und erzeugen bei jeder Bewegung ein atemberaubendes Funkeln.',
+      de: 'Luxus für jeden Tag und festliche Bälle. Über 120 handgefasste Mikro-Brillanten zieren die geschwungenen Ohrhänger und erzeugen bei jeder Bewegung ein atemberaubendes Funkeln.',
       en: 'Daily luxury and gala splendour. Over 120 hand-set micro-brilliants adorn these curved earrings for radiant reflections.',
       fr: 'Luxe quotidien et éclat des grands soirs. Plus de 120 micro-brillants montés à la main pour un scintillement captivant.',
       it: 'Lusso quotidiano ed eleganza da gran gala. Oltre 120 micro-brillanti incastonati a mano per un bagliore mozzafiato.'
     },
     price: 3200,
-    tag: 'Signature',
+    tag: 'Signatur',
     carat: '0.85 ct',
     clarity: 'VS1',
     material: '18K Gelbgold',
@@ -729,15 +729,15 @@ export default function App() {
 
             <div className="expose-header">
               <div>
-                <span className="expose-badge">OFFIZIELLES INVESTITIONS-EXPOSÉ 2026</span>
+                <span className="expose-badge">OFFIZIELLE ANLAGEÜBERSICHT 2026</span>
                 <h2 style={{ fontSize: '1.8rem', color: '#fff', margin: '4px 0' }}>Vallter Diamonds Anlagereport</h2>
-                <p style={{ color: 'var(--gold-light)', fontSize: '0.85rem' }}>Physische Sachwerte & Portfoliodiversifikation</p>
+                <p style={{ color: 'var(--gold-light)', fontSize: '0.85rem' }}>Physische Sachwerte & Vermögensaufteilung</p>
               </div>
               <img src="/vallter-diamonds-logo.jpg" alt="Logo" style={{ width: '55px', height: '55px', borderRadius: '50%', border: '1px solid var(--gold-primary)' }} />
             </div>
 
             <p style={{ color: 'var(--text-muted)', fontSize: '0.92rem', lineHeight: '1.7' }}>
-              Dieses Dokument dient anspruchsvollen Privatinvestoren und Family Offices als verifizierter Leitfaden für die physische Vermögenssicherung in bankenunabhängigen Sachwerten.
+              Dieses Dokument dient anspruchsvollen Privatinvestoren und Vermögensverwaltern als verifizierter Leitfaden für die physische Vermögenssicherung in bankenunabhängigen Sachwerten.
             </p>
 
             <div className="expose-grid">
@@ -773,7 +773,7 @@ export default function App() {
                   style={{ cursor: 'pointer' }}
                   onClick={handleDownloadExpose}
                 >
-                  <Download size={16} /> Exposé als PDF herunterladen
+                  <Download size={16} /> Übersicht als PDF herunterladen
                 </button>
                 <a href="#beratung" className="btn-secondary" onClick={() => setExposeOpen(false)}>
                   Persönliche Beratung

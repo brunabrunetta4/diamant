@@ -1,25 +1,25 @@
 export const translations = {
   de: {
     nav: {
-      shop: 'Boutique & Kollektionen',
-      investments: 'Investments',
+      shop: 'Geschäft & Kollektionen',
+      investments: 'Investitionen',
       philosophy: 'Philosophie',
-      atelier: 'Das Atelier',
+      atelier: 'Die Werkstatt',
       consultation: 'Privatberatung',
-      bookAppointment: 'Termin buchen',
+      bookAppointment: 'Termin vereinbaren',
       cartTitle: 'Ihr Warenkorb'
     },
     hero: {
-      badge: 'Haute Joaillerie & Diamantenmanufaktur',
+      badge: 'Meister-Juwelierskunst & Diamantenmanufaktur',
       subtitle: 'FÜR EINE STRAHLENDE EWIGKEIT',
-      desc: 'Erleben Sie zeitlose Eleganz, makellose Edelsteine und kompromisslose Goldschmiedekunst. Wählen Sie Ihr Unikat aus unserer Boutique oder vereinbaren Sie eine Privatkonsultation.',
-      btnShop: 'Jetzt Shoppen',
-      btnInvest: 'Diamanten Investment'
+      desc: 'Erleben Sie zeitlose Eleganz, makellose Edelsteine und kompromisslose Goldschmiedekunst. Wählen Sie Ihr Unikat aus unserem Sortiment oder vereinbaren Sie eine Privatberatung.',
+      btnShop: 'Kollektion Entdecken',
+      btnInvest: 'Diamanten-Wertanlage'
     },
     shop: {
-      tag: 'Haute Horlogerie & Schmuck-Boutique',
-      title: 'Online Boutique & Kollektionen',
-      desc: 'Klicken Sie auf ein Schmuckstück für detaillierte Spezifikationen und legen Sie Ihre Favoriten direkt in den Warenkorb.',
+      tag: 'Uhrmacherkunst & Echter Edelschmuck',
+      title: 'Online-Sortiment & Kollektionen',
+      desc: 'Klicken Sie auf ein Schmuckstück für detaillierte Angaben und legen Sie Ihre Favoriten direkt in den Warenkorb.',
       searchPlaceholder: 'Schmuckstücke suchen (z.B. Solitär, Platin, Ohrringe)...',
       all: 'Alle',
       rings: 'Ringe',
@@ -29,56 +29,56 @@ export const translations = {
       details: 'Details',
       buy: 'Kaufen',
       addToCart: 'In den Warenkorb',
-      consultation: 'Konsultation',
+      consultation: 'Beratung',
       specMetal: 'Edelmetall:',
       specCarat: 'Karatgewicht:',
       specClarity: 'Reinheitsgrad:',
       specCert: 'Zertifikat:',
-      certIncluded: 'GIA / IGI Inklusive',
+      certIncluded: 'GIA / IGI Enthalten',
       emptyCart: 'Ihr Warenkorb ist derzeit leer.',
       explore: 'Kollektionen erkunden',
       total: 'Gesamtsumme:',
       checkout: 'Zur Kasse gehen',
-      orderSuccess: 'Bestellung erfolgreich platziert! Wir kontaktieren Sie bezüglich versichertem Werttransport.'
+      orderSuccess: 'Bestellung erfolgreich aufgegeben! Wir kontaktieren Sie bezüglich versichertem Werttransport.'
     },
     investments: {
       tag: 'Vermögenssicherung & Sachwerte',
       title: 'Diamanten als Wertanlage',
       desc: 'Physische, GIA-versiegelte Anlagediamanten höchster Reinheit und Seltenheit zum langfristigen Werterhalt und Inflationsschutz.',
       recommended: 'Empfohlen',
-      starterTitle: 'Portfolio Starter',
+      starterTitle: 'Portfolio-Einstieg',
       starterPrice: 'ab € 10.000',
       starterDesc: 'Ideal für den Einstieg in krisensichere Sachwerte mit hoher Liquidität und weltweiter Handelbarkeit.',
       starterPerks: [
         '1.00 - 1.50 Karat Solitär-Brillant',
         'Farbgrade D–F (Farblos / Höchste Güte)',
         'Reinheit IF / VVS1 (Lupenrein)',
-        'GIA-Dossier mit Lasergravur & Siegelbox'
+        'GIA-Prüfbericht mit Lasergravur & Siegelbox'
       ],
-      starterBtn: 'Exposé anfordern',
-      vaultTitle: 'Private Wealth Vault',
+      starterBtn: 'Anlageübersicht anfordern',
+      vaultTitle: 'Vermögens-Tresor',
       vaultPrice: 'ab € 50.000',
-      vaultDesc: 'Selektiertes Portfolio aus seltenen Investment-Diamanten inklusive versicherter Schweizer Hochsicherheitslagerung.',
+      vaultDesc: 'Ausgewähltes Portfolio aus seltenen Anlagediamanten inklusive versicherter Schweizer Hochsicherheitslagerung.',
       vaultPerks: [
-        'Multi-Stein Portfolio (2.00+ ct Solitäre)',
-        'Dreifach Exzellenter Schliff (Cut, Polish, Symmetry)',
+        'Mehrstein-Portfolio (2.00+ ct Solitäre)',
+        'Dreifach Exzellenter Schliff (Schliff, Politur, Symmetrie)',
         'Option auf zollfreie Lagerung in Zürich / Genf',
-        'Quartalsweiser Bewertungsreport & Rückkaufoption'
+        'Vierteljährlicher Bewertungsbericht & Rückkaufoption'
       ],
-      vaultBtn: 'VIP Beratung Buchen',
-      raritiesTitle: 'Fancy Color Rarities',
+      vaultBtn: 'Erstklassige Beratung vereinbaren',
+      raritiesTitle: 'Farbige Diamant-Raritäten',
       raritiesPrice: 'ab € 150.000',
-      raritiesDesc: 'Extrem seltene farbige Naturdiamanten (Fancy Vivid Yellow, Pink & Blue) mit historisch herausragender Wertsteigerung.',
+      raritiesDesc: 'Extrem seltene farbige Naturdiamanten (Intensiv Gelb, Rosa & Blau) mit historisch herausragender Wertsteigerung.',
       raritiesPerks: [
-        'Höchste internationale Sammler-Nachfrage',
-        'Unabhängige Doppelzertifizierung (GIA / Gübelin)',
+        'Höchste weltweite Sammlernachfrage',
+        'Unabhängige Doppelprüfung (GIA / Gübelin)',
         'Weltweiter Auktions- und Vermittlungsservice',
-        'Diskrete persönliche Concierge-Betreuung'
+        'Diskrete persönliche Betreuung'
       ],
       raritiesBtn: 'Diskrete Anfrage',
       vault1Title: 'Zollfreilager Schweiz',
       vault1Desc: 'Auf Wunsch vollversicherte Aufbewahrung in Schweizer Hochsicherheitslagern (Zürich/Genf).',
-      vault2Title: '100% GIA Verifiziert',
+      vault2Title: '100% GIA Geprüft',
       vault2Desc: 'Jeder Stein mit Mikrolasergravur auf der Rundiste und fälschungssicherer Siegelbox.',
       vault3Title: 'Garantierte Liquidität',
       vault3Desc: 'Exklusiver Rückkaufservice und weltweiter Marktzugang über unser Händlernetzwerk.'
@@ -93,16 +93,16 @@ export const translations = {
       p2Desc: 'Jedes Schmuckstück entsteht in präziser Handwerkskunst mit größter Hingabe für Details und unübertroffene Langlebigkeit.',
       p3Title: 'GIA & IGI Zertifiziert',
       p3Desc: 'Vollständige Transparenz und verifizierte Wertgutachten durch international anerkannte gemmologische Institute.',
-      p4Title: 'Maßanfertigung & Atelier',
-      p4Desc: 'Verwirklichen Sie Ihre ganz persönlichen Träume mit unserem Atelier – von der 3D-Skizze bis zum vollendeten Meisterwerk.'
+      p4Title: 'Maßanfertigung & Werkstatt',
+      p4Desc: 'Verwirklichen Sie Ihre ganz persönlichen Träume mit unserer Werkstatt – von der 3D-Skizze bis zum vollendeten Meisterwerk.'
     },
     atelier: {
       tag: 'Manufaktur & Erbe',
       title: 'Goldschmiedekunst in vollendeter Reinform',
-      p1: 'In unserem Atelier vereinen sich jahrzehntelange handwerkliche Erfahrung mit modernster mikroskopischer Fasstechnik. Jeder Diamant wird von Hand selektiert, geprüft und harmonisch in edelstes Gold oder Platin gebettet.',
+      p1: 'In unserer Werkstatt vereinen sich jahrzehntelange handwerkliche Erfahrung mit modernster mikroskopischer Fasstechnik. Jeder Diamant wird von Hand ausgewählt, geprüft und harmonisch in edelstes Gold oder Platin gebettet.',
       p2: 'Wir glauben an Schmuck, der nicht nur funkelt, sondern Geschichten erzählt – Ihre Geschichten. Ein echtes Vallter Diamonds Unikat begleitet Sie ein Leben lang und strahlt für immer hell.',
       stat1Val: '100%',
-      stat1Lbl: 'Zertifiziert',
+      stat1Lbl: 'Geprüft',
       stat2Val: '0.01mm',
       stat2Lbl: 'Fasspräzision',
       stat3Val: 'Ewig',
@@ -110,13 +110,13 @@ export const translations = {
     },
     consultation: {
       tag: 'Persönlicher Service',
-      title: 'Vereinbaren Sie eine Privatkonsultation',
-      desc: 'Ob Maßanfertigung nach Ihren Vorstellungen oder die Auswahl eines Verlobungsrings: Unsere Gemmologen und Juwelen-Experten stehen Ihnen diskret und persönlich zur Seite.',
-      success: 'Vielen Dank! Ihre VIP-Anfrage wurde erfolgreich übermittelt. Wir melden uns umgehend bei Ihnen.',
+      title: 'Vereinbaren Sie eine Privatberatung',
+      desc: 'Ob Maßanfertigung nach Ihren Vorstellungen oder die Auswahl eines Verlobungsrings: Unsere Edelsteinexperten stehen Ihnen diskret und persönlich zur Seite.',
+      success: 'Vielen Dank! Ihre vertrauliche Anfrage wurde erfolgreich übermittelt. Wir melden uns umgehend bei Ihnen.',
       placeholder: 'Ihre E-Mail-Adresse für eine Einladung...',
-      btnSubmit: 'Konsultation Anfragen',
+      btnSubmit: 'Beratung anfordern',
       phone: 'Diskrete Telefonberatung',
-      locations: 'Exklusive Showrooms & Virtuell'
+      locations: 'Exklusive Ausstellungsräume & Online'
     },
     footer: {
       rights: 'Alle Rechte vorbehalten.',
