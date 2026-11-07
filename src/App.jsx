@@ -816,11 +816,15 @@ export default function App() {
       <section id="atelier" className="section atelier-section">
         <div className="atelier-container">
           <div className="atelier-image-col">
-            <div className="atelier-main-img-wrapper">
-              <img 
-                src="https://images.unsplash.com/photo-1531995811006-35cb42e1a022?auto=format&fit=crop&w=1000&q=80" 
-                alt="Diamanten Schleiferei und Goldschmied" 
+            <div className="atelier-main-img-wrapper" style={{ position: 'relative', overflow: 'hidden' }}>
+              <video 
+                src="/vallter-crafting.mp4" 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
                 className="atelier-main-img"
+                style={{ objectFit: 'cover', width: '100%', height: '480px', display: 'block' }}
               />
             </div>
             <div className="atelier-logo-overlay">
