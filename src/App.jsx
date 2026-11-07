@@ -634,6 +634,18 @@ export default function App() {
           <p className="section-desc">{t.investments.desc}</p>
         </div>
 
+        {/* Video für Wertanlagen */}
+        <div style={{ maxWidth: '820px', margin: '0 auto 60px', borderRadius: '20px', overflow: 'hidden', border: '1.5px solid var(--border-gold)', boxShadow: '0 20px 50px rgba(0,0,0,0.8), 0 0 35px rgba(212,175,55,0.25)' }}>
+          <video 
+            src="/vallter-diamonds-sparkle.mp4" 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            style={{ width: '100%', height: 'auto', display: 'block' }}
+          />
+        </div>
+
         <div className="investment-grid">
           <div className="investment-card">
             <div className="investment-icon">
