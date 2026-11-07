@@ -357,6 +357,18 @@ export default function App() {
             />
           </div>
 
+          {/* Video direkt unter dem Logo */}
+          <div style={{ maxWidth: '640px', margin: '0 auto 28px', borderRadius: '18px', overflow: 'hidden', border: '1px solid var(--border-gold)', boxShadow: '0 15px 40px rgba(0,0,0,0.7), 0 0 25px rgba(212,175,55,0.2)' }}>
+            <video 
+              src="/vallter-crafting.mp4" 
+              autoPlay 
+              loop 
+              muted 
+              playsInline
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
+          </div>
+
           <h1 className="hero-title">
             <span className="gold-text">VALLTER DIAMONDS</span>
           </h1>
