@@ -305,10 +305,10 @@ export default function App() {
           <a href="#beratung" onClick={() => setMenuOpen(false)}>{t.nav.consultation}</a>
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+        <div className="nav-actions">
           {/* Multi-Language Switcher */}
           <div className="lang-selector">
-            <Globe size={14} color="var(--gold-primary)" style={{ marginLeft: '4px' }} />
+            <Globe size={13} color="var(--gold-primary)" style={{ marginLeft: '4px' }} />
             {['de', 'en', 'fr', 'it'].map((l) => (
               <button 
                 key={l}
@@ -325,7 +325,7 @@ export default function App() {
             onClick={() => setCartOpen(true)}
             aria-label={t.nav.cartTitle}
           >
-            <ShoppingBag size={20} />
+            <ShoppingBag size={19} />
             {totalItemsCount > 0 && <span className="cart-badge-count">{totalItemsCount}</span>}
           </button>
 
